@@ -82,7 +82,7 @@ label{
 	width: 100%;
 	border: 1px solid #ccc;
 	padding: .7em;
-	width: 100%;
+
 }
 
 .campo-medio{
@@ -131,4 +131,34 @@ button[disabled=disabled], button:disabled {
 
 .campo-invalido{
 	border: 1px solid red;
+}
+
+.altura-peso-invalido {
+	background-color:rgb(255, 179, 179);
+}
+
+#mensagens-erro {
+	color: red;
+	font-weight: bold;
+}
+
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela {
+	width: 228px;
+	height: 33px;
+	margin-bottom: 10px;
+}
+
+.invisivel{
+	display: none;
+}
+
+#erro-ajax{
+	color: red;
+	font-weight: bold;
 }
